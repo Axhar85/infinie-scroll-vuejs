@@ -4,18 +4,18 @@
       <h1> My Anime Feed</h1>
     </header>
     <main> 
-      <!--Articales.. -->
+      <Post />
     </main>
   </div>
 </template>
 
 <script>
-
-
+import Post from "./components/Post.vue";
 export default {
   name: 'App',
   components: {
-  }
+    Post,
+  },
 }
 </script>
 
