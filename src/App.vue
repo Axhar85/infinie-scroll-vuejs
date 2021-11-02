@@ -57,7 +57,7 @@ export default {
       document.body.scrollHeight - 50
     ) {
       const new_anime = this.getAnime();
-      this anime_list = [...this.anime_list, ...new_anime];
+      this.anime_list = [...this.anime_list, ...new_anime];
     }
   },
 
