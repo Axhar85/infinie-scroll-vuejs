@@ -1,7 +1,7 @@
 <template>
   <div>
     <header> 
-      <h1> My Anime Feed</h1>
+      <h1> My Infinite Anime Feed</h1>
     </header>
     <main> 
       <Post  v-for="(anime, i) in anime_list" :key="i" :anime="anime" />
