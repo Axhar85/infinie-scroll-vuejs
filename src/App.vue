@@ -51,9 +51,21 @@ export default {
       }
       return anime;
     },
+    handleScroll() {
+    if (
+      window.scrollY + window.innerHeight >=
+      document.body.scrollHeight - 50
+    ) {
+      const new_anime = this.getAnime();
+      this anime_list = [...this.anime_list, ...new_anime];
+    }
+  },
+
+  
   },
     mounted () {
       this.anime_list = this.getAnime();
+      window.addEventListener("scroll", this.handleScroll);
     },
 }
 </script>
