@@ -13,9 +13,33 @@
 import Post from "./components/Post.vue";
 export default {
   name: 'App',
+  data () {
+    return {
+      anime_list: []
+    }
+  },
   components: {
     Post,
   },
+  methods: {
+    getAnime () {
+      const anime_title = [
+        "Naruto",
+				"Demon Slayer",
+				"Dragon Ball",
+				"My Hero Academia",
+				"Sword Art Online",
+				"Tokyo Ghoul",
+				"Darling in the Franxx",
+				"Code Geass",
+				"One Piece",
+				"Fairy Tail",
+				"Bleach",
+				"Attack on Titan",
+				"Hunter x Hunter",
+      ];
+    }
+  }
 }
 </script>
 
