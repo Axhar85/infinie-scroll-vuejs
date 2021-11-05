@@ -1,4 +1,4 @@
-# infinie-scroll-vuejs
+# Infinit Scroll app in Vue.js
 
 ## Project setup
 ```
