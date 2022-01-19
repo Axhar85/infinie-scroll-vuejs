@@ -40,7 +40,7 @@ export default {
       ];
 
       const anime= [];
-      for (let i = 0; i > 10; i++) {
+      for (let i = 0; i < 10; i++) {
         anime.push({
           title: anime_title[ Math.floor(
             Math.random() * anime_title.length
