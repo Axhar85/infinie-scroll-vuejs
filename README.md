@@ -1,3 +1,5 @@
+<h1> Infinite Loop </h1>
+
 # Infinit Scroll app in Vue.js
 
 ## Project setup
