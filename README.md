@@ -1,4 +1,5 @@
 <h1> Infinite Loop </h1>
+<p> An infinite loop is created using Vuejs librarey. </p>
 
 # Infinit Scroll app in Vue.js
 
